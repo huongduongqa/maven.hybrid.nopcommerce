@@ -1,0 +1,15 @@
+com\nopcommerce\data\UserData$Address.class
+com\nopcommerce\user\User_02_Login.class
+com\nopcommerce\data\DataHelper.class
+com\nopcommerce\admin\Admin_01_Search.class
+com\nopcommerce\common\Common_01_Register_User.class
+com\nopcommerce\common\Common_02_Register_Admin.class
+com\nopcommerce\data\UserData$Login.class
+com\nopcommerce\user\User_01_Register.class
+com\nopcommerce\user\User_03_MyAccount.class
+com\nopcommerce\data\UserData$Register.class
+com\nopcommerce\user\User_05_Sort.class
+com\nopcommerce\user\User_06_WishList_Compare_ReviewView.class
+com\nopcommerce\user\User_07_Orders.class
+com\nopcommerce\data\UserData.class
+com\nopcommerce\user\User_04_Search.class

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="NopCommerceTest">
+  
+  <Listeners>
+  		<Listener class-name = "reportConfigs.AllureTestListener"/>
+  </Listeners>
+  
+  <test name="Run on FF">
+    <parameter  name = "browser" value = "firefox"/> 
+    <parameter  name = "userType" value = "admin"/> 
+  
+    <classes>
+         <class name="com.nopcommerce.common.Common_02_Register_Admin"/> 
+    </classes>
+  </test> 
+  
+</suite> 

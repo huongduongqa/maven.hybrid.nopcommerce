@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="NopCommerceTest">
+  
+  <Listeners>
+  		<Listener class-name = "reportConfigs.AllureTestListener"/>
+  </Listeners>
+  
+  <test name="Run on FF">
+    <parameter  name = "browser" value = "firefox"/> 
+     <parameter  name = "userType" value = "user"/> 
+  
+    <classes>
+         <class name="com.nopcommerce.common.Common_01_Register_User"/> 
+         <class name="com.nopcommerce.user.User_02_Login"/>
+        --<!-- <class name="com.nopcommerce.user.User_02_Login"/> 
+         <class name="com.nopcommerce.user.User_03_MyAccount"/>
+         <class name="com.nopcommerce.user.User_04_Search"/>
+         <class name="com.nopcommerce.user.User_05_Sort"/>
+         <class name="com.nopcommerce.user.User_06_WishList_Compare_ReviewView"/>
+         <class name="com.nopcommerce.user.User_07_Orders"/> --> 
+    </classes>
+  </test> 
+  
+</suite> 
