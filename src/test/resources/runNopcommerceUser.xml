@@ -6,7 +6,7 @@
   </Listeners>
   
   <test name="Run on FF">
-    <parameter  name = "browser" value = "firefox"/> 
+    <parameter  name = "browser" value = "chrome"/> 
      <parameter  name = "userType" value = "user"/> 
   
     <classes>
