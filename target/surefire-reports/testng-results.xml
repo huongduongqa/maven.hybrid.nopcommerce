@@ -2,12 +2,12 @@
 <testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-30T13:54:40Z" name="NopCommerceTest" finished-at="2023-01-30T13:55:01Z" duration-ms="20814">
+  <suite started-at="2023-01-30T14:55:04Z" name="NopCommerceTest" finished-at="2023-01-30T14:55:31Z" duration-ms="27219">
     <groups>
     </groups>
-    <test started-at="2023-01-30T13:54:40Z" name="Run on FF" finished-at="2023-01-30T13:55:01Z" duration-ms="20814">
+    <test started-at="2023-01-30T14:55:04Z" name="Run on FF" finished-at="2023-01-30T14:55:31Z" duration-ms="27219">
       <class name="com.nopcommerce.user.User_02_Login">
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.User_02_Login@3c89bb12]" started-at="2023-01-30T13:54:51Z" name="beforeClass" finished-at="2023-01-30T13:54:54Z" duration-ms="3557" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.User_02_Login@4a9486c0]" started-at="2023-01-30T14:55:17Z" name="beforeClass" finished-at="2023-01-30T14:55:21Z" duration-ms="4237" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,41 +23,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Login_01_Empty_Data()[pri:0, instance:com.nopcommerce.user.User_02_Login@3c89bb12]" started-at="2023-01-30T13:54:54Z" name="Login_01_Empty_Data" finished-at="2023-01-30T13:54:56Z" duration-ms="1239" status="PASS">
+        <test-method signature="Login_01_Empty_Data()[pri:0, instance:com.nopcommerce.user.User_02_Login@4a9486c0]" started-at="2023-01-30T14:55:21Z" name="Login_01_Empty_Data" finished-at="2023-01-30T14:55:22Z" duration-ms="1196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_01_Empty_Data -->
-        <test-method signature="Login_02_Invalid_Email()[pri:0, instance:com.nopcommerce.user.User_02_Login@3c89bb12]" started-at="2023-01-30T13:54:56Z" name="Login_02_Invalid_Email" finished-at="2023-01-30T13:54:56Z" duration-ms="525" status="PASS">
+        <test-method signature="Login_02_Invalid_Email()[pri:0, instance:com.nopcommerce.user.User_02_Login@4a9486c0]" started-at="2023-01-30T14:55:23Z" name="Login_02_Invalid_Email" finished-at="2023-01-30T14:55:23Z" duration-ms="611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_02_Invalid_Email -->
-        <test-method signature="Login_03_Not_Existing_Email()[pri:0, instance:com.nopcommerce.user.User_02_Login@3c89bb12]" started-at="2023-01-30T13:54:56Z" name="Login_03_Not_Existing_Email" finished-at="2023-01-30T13:54:57Z" duration-ms="647" status="PASS">
+        <test-method signature="Login_03_Not_Existing_Email()[pri:0, instance:com.nopcommerce.user.User_02_Login@4a9486c0]" started-at="2023-01-30T14:55:23Z" name="Login_03_Not_Existing_Email" finished-at="2023-01-30T14:55:24Z" duration-ms="949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_03_Not_Existing_Email -->
-        <test-method signature="Login_04_Blank_Password()[pri:0, instance:com.nopcommerce.user.User_02_Login@3c89bb12]" started-at="2023-01-30T13:54:57Z" name="Login_04_Blank_Password" finished-at="2023-01-30T13:54:57Z" duration-ms="666" status="PASS">
+        <test-method signature="Login_04_Blank_Password()[pri:0, instance:com.nopcommerce.user.User_02_Login@4a9486c0]" started-at="2023-01-30T14:55:24Z" name="Login_04_Blank_Password" finished-at="2023-01-30T14:55:25Z" duration-ms="835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_04_Blank_Password -->
-        <test-method signature="Login_05_Wrong_Password()[pri:0, instance:com.nopcommerce.user.User_02_Login@3c89bb12]" started-at="2023-01-30T13:54:57Z" name="Login_05_Wrong_Password" finished-at="2023-01-30T13:54:58Z" duration-ms="677" status="PASS">
+        <test-method signature="Login_05_Wrong_Password()[pri:0, instance:com.nopcommerce.user.User_02_Login@4a9486c0]" started-at="2023-01-30T14:55:25Z" name="Login_05_Wrong_Password" finished-at="2023-01-30T14:55:26Z" duration-ms="886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_05_Wrong_Password -->
-        <test-method signature="Login_06_Correct_Account()[pri:0, instance:com.nopcommerce.user.User_02_Login@3c89bb12]" started-at="2023-01-30T13:54:58Z" name="Login_06_Correct_Account" finished-at="2023-01-30T13:54:59Z" duration-ms="962" status="PASS">
+        <test-method signature="Login_06_Correct_Account()[pri:0, instance:com.nopcommerce.user.User_02_Login@4a9486c0]" started-at="2023-01-30T14:55:26Z" name="Login_06_Correct_Account" finished-at="2023-01-30T14:55:27Z" duration-ms="1397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_06_Correct_Account -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.User_02_Login@3c89bb12]" started-at="2023-01-30T13:54:59Z" name="afterClass" finished-at="2023-01-30T13:55:00Z" duration-ms="844" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.User_02_Login@4a9486c0]" started-at="2023-01-30T14:55:27Z" name="afterClass" finished-at="2023-01-30T14:55:29Z" duration-ms="1352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.nopcommerce.user.User_02_Login -->
       <class name="com.nopcommerce.common.Common_01_Register_User">
-        <test-method is-config="true" signature="initBeforeSuite()[pri:0, instance:com.nopcommerce.common.Common_01_Register_User@5ee34b1b]" started-at="2023-01-30T13:54:40Z" name="initBeforeSuite" finished-at="2023-01-30T13:54:40Z" duration-ms="47" status="PASS">
+        <test-method is-config="true" signature="initBeforeSuite()[pri:0, instance:com.nopcommerce.common.Common_01_Register_User@677b8e13]" started-at="2023-01-30T14:55:04Z" name="initBeforeSuite" finished-at="2023-01-30T14:55:04Z" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBeforeSuite -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.common.Common_01_Register_User@5ee34b1b]" started-at="2023-01-30T13:54:40Z" name="beforeClass" finished-at="2023-01-30T13:54:51Z" duration-ms="10598" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.common.Common_01_Register_User@677b8e13]" started-at="2023-01-30T14:55:04Z" name="beforeClass" finished-at="2023-01-30T14:55:17Z" duration-ms="13333" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.nopcommerce.common.Common_01_Register_User@5ee34b1b]" started-at="2023-01-30T13:55:00Z" name="afterTest" finished-at="2023-01-30T13:55:01Z" duration-ms="941" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.nopcommerce.common.Common_01_Register_User@677b8e13]" started-at="2023-01-30T14:55:29Z" name="afterTest" finished-at="2023-01-30T14:55:31Z" duration-ms="2065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
