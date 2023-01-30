@@ -99,6 +99,11 @@ public class User_02_Login extends BaseTest {
 		Assert.assertTrue(homePage.IsLogoutLinkDisplayed());
 	}
 	
+	@Test
+	public void Login_07_Test() throws InterruptedException {
+		System.out.println("checking");
+	}
+	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
 		driver.quit();
