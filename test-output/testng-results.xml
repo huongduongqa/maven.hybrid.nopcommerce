@@ -2,16 +2,16 @@
 <testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-25T22:08:25Z" name="NopCommerceTest" finished-at="2023-01-25T22:08:55Z" duration-ms="29416">
+  <suite started-at="2023-01-30T16:53:50Z" name="NopCommerceTest" finished-at="2023-01-30T16:54:17Z" duration-ms="26849">
     <groups>
     </groups>
-    <test started-at="2023-01-25T22:08:25Z" name="Run on FF" finished-at="2023-01-25T22:08:55Z" duration-ms="29416">
+    <test started-at="2023-01-30T16:53:50Z" name="Run on FF" finished-at="2023-01-30T16:54:17Z" duration-ms="26849">
       <class name="com.nopcommerce.user.User_02_Login">
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.User_02_Login@5e268ce6]" started-at="2023-01-25T22:08:40Z" name="beforeClass" finished-at="2023-01-25T22:08:44Z" duration-ms="4054" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.User_02_Login@60d1b21f]" started-at="2023-01-30T16:54:05Z" name="beforeClass" finished-at="2023-01-30T16:54:08Z" duration-ms="2759" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -23,45 +23,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Login_01_Empty_Data()[pri:0, instance:com.nopcommerce.user.User_02_Login@5e268ce6]" started-at="2023-01-25T22:08:44Z" name="Login_01_Empty_Data" finished-at="2023-01-25T22:08:46Z" duration-ms="1301" status="PASS">
+        <test-method signature="Login_01_Empty_Data()[pri:0, instance:com.nopcommerce.user.User_02_Login@60d1b21f]" started-at="2023-01-30T16:54:08Z" name="Login_01_Empty_Data" finished-at="2023-01-30T16:54:09Z" duration-ms="1206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_01_Empty_Data -->
-        <test-method signature="Login_02_Invalid_Email()[pri:0, instance:com.nopcommerce.user.User_02_Login@5e268ce6]" started-at="2023-01-25T22:08:46Z" name="Login_02_Invalid_Email" finished-at="2023-01-25T22:08:47Z" duration-ms="731" status="PASS">
+        <test-method signature="Login_02_Invalid_Email()[pri:0, instance:com.nopcommerce.user.User_02_Login@60d1b21f]" started-at="2023-01-30T16:54:09Z" name="Login_02_Invalid_Email" finished-at="2023-01-30T16:54:10Z" duration-ms="583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_02_Invalid_Email -->
-        <test-method signature="Login_03_Not_Existing_Email()[pri:0, instance:com.nopcommerce.user.User_02_Login@5e268ce6]" started-at="2023-01-25T22:08:47Z" name="Login_03_Not_Existing_Email" finished-at="2023-01-25T22:08:48Z" duration-ms="1307" status="PASS">
+        <test-method signature="Login_03_Not_Existing_Email()[pri:0, instance:com.nopcommerce.user.User_02_Login@60d1b21f]" started-at="2023-01-30T16:54:10Z" name="Login_03_Not_Existing_Email" finished-at="2023-01-30T16:54:11Z" duration-ms="1175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_03_Not_Existing_Email -->
-        <test-method signature="Login_04_Blank_Password()[pri:0, instance:com.nopcommerce.user.User_02_Login@5e268ce6]" started-at="2023-01-25T22:08:48Z" name="Login_04_Blank_Password" finished-at="2023-01-25T22:08:49Z" duration-ms="970" status="PASS">
+        <test-method signature="Login_04_Blank_Password()[pri:0, instance:com.nopcommerce.user.User_02_Login@60d1b21f]" started-at="2023-01-30T16:54:11Z" name="Login_04_Blank_Password" finished-at="2023-01-30T16:54:12Z" duration-ms="1178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_04_Blank_Password -->
-        <test-method signature="Login_05_Wrong_Password()[pri:0, instance:com.nopcommerce.user.User_02_Login@5e268ce6]" started-at="2023-01-25T22:08:49Z" name="Login_05_Wrong_Password" finished-at="2023-01-25T22:08:50Z" duration-ms="1117" status="PASS">
+        <test-method signature="Login_05_Wrong_Password()[pri:0, instance:com.nopcommerce.user.User_02_Login@60d1b21f]" started-at="2023-01-30T16:54:12Z" name="Login_05_Wrong_Password" finished-at="2023-01-30T16:54:13Z" duration-ms="1326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_05_Wrong_Password -->
-        <test-method signature="Login_06_Correct_Account()[pri:0, instance:com.nopcommerce.user.User_02_Login@5e268ce6]" started-at="2023-01-25T22:08:50Z" name="Login_06_Correct_Account" finished-at="2023-01-25T22:08:51Z" duration-ms="1341" status="PASS">
+        <test-method signature="Login_06_Correct_Account()[pri:0, instance:com.nopcommerce.user.User_02_Login@60d1b21f]" started-at="2023-01-30T16:54:13Z" name="Login_06_Correct_Account" finished-at="2023-01-30T16:54:15Z" duration-ms="1960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_06_Correct_Account -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.User_02_Login@5e268ce6]" started-at="2023-01-25T22:08:51Z" name="afterClass" finished-at="2023-01-25T22:08:53Z" duration-ms="1441" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.User_02_Login@60d1b21f]" started-at="2023-01-30T16:54:15Z" name="afterClass" finished-at="2023-01-30T16:54:16Z" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.nopcommerce.user.User_02_Login -->
       <class name="com.nopcommerce.common.Common_01_Register_User">
-        <test-method is-config="true" signature="initBeforeSuite()[pri:0, instance:com.nopcommerce.common.Common_01_Register_User@3ed0918d]" started-at="2023-01-25T22:08:25Z" name="initBeforeSuite" finished-at="2023-01-25T22:08:25Z" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="initBeforeSuite()[pri:0, instance:com.nopcommerce.common.Common_01_Register_User@ae7950d]" started-at="2023-01-30T16:53:50Z" name="initBeforeSuite" finished-at="2023-01-30T16:53:50Z" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBeforeSuite -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.common.Common_01_Register_User@3ed0918d]" started-at="2023-01-25T22:08:25Z" name="beforeClass" finished-at="2023-01-25T22:08:40Z" duration-ms="14824" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.common.Common_01_Register_User@ae7950d]" started-at="2023-01-30T16:53:50Z" name="beforeClass" finished-at="2023-01-30T16:54:05Z" duration-ms="14783" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.nopcommerce.common.Common_01_Register_User@3ed0918d]" started-at="2023-01-25T22:08:53Z" name="afterTest" finished-at="2023-01-25T22:08:55Z" duration-ms="1940" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.nopcommerce.common.Common_01_Register_User@ae7950d]" started-at="2023-01-30T16:54:16Z" name="afterTest" finished-at="2023-01-30T16:54:17Z" duration-ms="719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
